@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero{
+    height: 100vh;
+    background:url(Blue\ and\ Yellow\ Gradient\ Modern\ Desktop\ Wallpaper.png) ;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    display: flex;
+    padding: 0px;
+}
+.content{
+    text-align: center;
+    color: beige;
+}
+.content h1{
+    font-size: 35px;
+    margin-bottom:35px ;
+}
+.content p{
+    font-size: 27px;
+    margin-bottom: 30px;
+    color: burlywood;
+    font-style: italic;
+}
+.content .btn{
+    font-size:17px ;
+    padding: 10px 20px;
+    background-color: darkslategrey;
+    color: burlywood;
+    border: 5px;
+    text-decoration:none ;
+    transition: 0.03 ease;
+    display:inline-block ;
+}
