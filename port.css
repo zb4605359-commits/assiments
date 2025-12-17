@@ -39,5 +39,43 @@ body{
     border: 5px;
     text-decoration:none ;
     transition: 0.03 ease;
-    display:inline-block ;
+    display: inline-block;
+}
+.content .btn:hover{
+    background-color: darkslategrey;
+}
+.navbar{
+    text-decoration: none ;
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: last baseline;
+    justify-content: space-evenly;
+}
+.logo a{
+    font-size: 40px; font-weight: 600;
+color: darkslategray;
+}
+.home{
+    color: darkslategrey;
+    display: flex;
+    margin-right: 20px;
+}
+.section{
+    color: darkslategrey;
+    display: flex;
+    margin-right: 15px;
+}
+.about{
+    color: darkslategrey;
+    display: flex;
+    margin-right: 15px;
+}
+button{
+    color: antiquewhite;
+    background-color: dimgray;
+    font-size: 18px;
+    margin-left:80px ;
 }
