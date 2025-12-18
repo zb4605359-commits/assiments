@@ -46,7 +46,7 @@ body{
 }
 .navbar{
     text-decoration: none ;
-    background-color: skyblue;
+    background-color: #111;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     padding-right: 10px;
@@ -54,22 +54,18 @@ body{
     align-items: last baseline;
     justify-content: space-evenly;
 }
-.logo a{
-    font-size: 40px; font-weight: 600;
-color: darkslategray;
-}
 .home{
-    color: darkslategrey;
+    color: #fff;
     display: flex;
     margin-right: 20px;
 }
 .section{
-    color: darkslategrey;
+    color: #fff;
     display: flex;
     margin-right: 15px;
 }
 .about{
-    color: darkslategrey;
+    color: #fff;
     display: flex;
     margin-right: 15px;
 }
